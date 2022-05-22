@@ -5,6 +5,7 @@ const PORT = 5000;
 const app = express();
 app.get('/api/products', (req, res) => {
   res.send(data.products);
+  console.log(data.products)
 });
 
 app.listen(PORT, () => {
